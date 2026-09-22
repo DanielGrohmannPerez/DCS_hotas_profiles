@@ -81,7 +81,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.03,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -102,7 +102,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.21,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.03,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -171,16 +171,19 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN41",
 				},
-			},
-			["name"] = "Generador de energia del APU",
-		},
-		["d1073pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
+				[2] = {
 					["key"] = "JOY_BTN42",
 				},
 			},
-			["name"] = "Alimentación de la batería",
+			["name"] = "Generador de energia del APU",
+		},
+		["d1313pnilu1313cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN78",
+				},
+			},
+			["name"] = "UFC - Tecla Master Caution",
 		},
 		["d1314pnilu1314cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -295,7 +298,7 @@ local diff = {
 		["d1380pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN83",
+					["key"] = "JOY_BTN100",
 				},
 			},
 			["name"] = "Interruptor LASER a ARM",
@@ -303,7 +306,7 @@ local diff = {
 		["d1381pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN84",
+					["key"] = "JOY_BTN99",
 				},
 			},
 			["name"] = "Interruptor LASER a SAFE",
@@ -311,10 +314,51 @@ local diff = {
 		["d1383pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN85",
+					["key"] = "JOY_BTN102",
+				},
+				[2] = {
+					["key"] = "JOY_BTN101",
 				},
 			},
-			["name"] = "Interruptor TGP - On/Off",
+			["name"] = "Interruptor TGP - ON/OFF",
+		},
+		["d1384pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN83",
+				},
+			},
+			["name"] = "Interruptor ALT SCE a BARO",
+		},
+		["d1386pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN84",
+				},
+			},
+			["name"] = "Interruptor ALT SCE a RADAR",
+		},
+		["d1387pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN85",
+				},
+				[2] = {
+					["key"] = "JOY_BTN86",
+				},
+			},
+			["name"] = "Interruptor HUD MODE - DAY/NIGHT",
+		},
+		["d1388pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN87",
+				},
+				[2] = {
+					["key"] = "JOY_BTN88",
+				},
+			},
+			["name"] = "Interruptor HUD MODE - NORM/STBY",
 		},
 		["d1389pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -322,7 +366,7 @@ local diff = {
 					["key"] = "JOY_BTN89",
 				},
 			},
-			["name"] = "Interruptor CICU On/Off",
+			["name"] = "Interruptor CICU ON/OFF",
 		},
 		["d1390pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -330,7 +374,7 @@ local diff = {
 					["key"] = "JOY_BTN91",
 				},
 			},
-			["name"] = "Interruptor JTRS - On/Off",
+			["name"] = "Interruptor JTRS - ON/OFF",
 		},
 		["d1391pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -403,7 +447,7 @@ local diff = {
 			["name"] = "Apagado motor derecho",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Lanzar arma",
+			["name"] = "Disparar arma",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
@@ -528,21 +572,29 @@ local diff = {
 			},
 			["name"] = "HOTAS - Interruptor China Hat atrás",
 		},
-		["d568pnilu570cdnilvdnilvpnilvunil"] = {
+		["d568pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN7",
 				},
 			},
-			["name"] = "HOTAS Interruptor Pinky: Adelante<>Centro",
+			["name"] = "HOTAS - Interruptor Pinky adelante",
 		},
-		["d569pnilu570cdnilvdnilvpnilvunil"] = {
+		["d569pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "HOTAS Interruptor Pinky: Atrás<>Centro",
+			["name"] = "HOTAS - Interruptor Pinky atrás",
+		},
+		["d570pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "HOTAS - Interruptor Pinky centrado",
 		},
 		["d571pnilu1557cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -601,7 +653,7 @@ local diff = {
 			["name"] = "Maneral cortafuegos del motor derecho",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Palanca de control en modo de control de compensación",
+			["name"] = "Palanca de control en modo compensación",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",

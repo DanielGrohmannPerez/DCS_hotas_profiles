@@ -1,25 +1,54 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2101cdnil"] = {
-			["added"] = {
+		["a2001cdnil"] = {
+			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.12,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.03,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
-						["invert"] = true,
+						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = true,
+						["slider"] = false,
 					},
-					["key"] = "JOY_SLIDER1",
+					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Freno de ruedas",
+			["name"] = "Cabeceo",
+		},
+		["a2002cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.12,
+						},
+						["deadzone"] = 0.03,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Alabeo",
+		},
+		["a2003cdnil"] = {
+			["name"] = "Timón",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
 		},
 	},
 	["keyDiffs"] = {
@@ -31,37 +60,13 @@ local diff = {
 			},
 			["name"] = "HOTAS - CMS eje Z",
 		},
-		["d1731pnilu1731cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "HOTAS MIC Switch Down (VOIP)",
-		},
-		["d1732pnilu1732cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-				},
-			},
-			["name"] = "HOTAS MIC Switch Forward (VOIP)",
-		},
-		["d1755pnilu1755cdnilvd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "HOTAS MIC Switch Aft (VOIP)",
-		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Lanzar arma",
+			["name"] = "Disparar arma",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
@@ -191,7 +196,7 @@ local diff = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "HOTAS - Botón de control de modo maestro",
+			["name"] = "HOTAS - Botón modo maestro",
 		},
 		["d562pnilu606cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -207,82 +212,10 @@ local diff = {
 			},
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Palanca de control en modo de control de compensación",
+			["name"] = "Palanca de control en modo compensación",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
-				},
-			},
-		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista arriba a la derecha lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UR",
-				},
-			},
-		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista abajo a la derecha lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
-				},
-			},
-		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista abajo a la izquierda lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
-				},
-			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista arriba a la izquierda lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UL",
-				},
-			},
-		},
-		["dnilp32u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista a la izquierda lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-		},
-		["dnilp33u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista a la derecha lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-		},
-		["dnilp34u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista arriba lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-		},
-		["dnilp35u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "Vista abajo lentamente",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Centrar visión",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},
