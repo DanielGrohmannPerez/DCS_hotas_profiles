@@ -42,8 +42,8 @@ local diff = {
 			},
 			["name"] = "Alabeo",
 		},
-		["a2003cdnil"] = {
-			["name"] = "Timón",
+		["a2004cdnil"] = {
+			["name"] = "Ambas palancas de gases",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",

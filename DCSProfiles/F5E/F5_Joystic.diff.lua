@@ -1,5 +1,13 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2004cdnil"] = {
+			["name"] = "Potencia",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+		},
 		["a2101cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -24,7 +32,7 @@ local diff = {
 					["key"] = "JOY_BTN30",
 				},
 			},
-			["name"] = "Botón de dirección de la rueda de morro",
+			["name"] = "Botón Nosewheel Steering",
 		},
 		["d3005pnilu3005cd18vd-1vpnilvu0"] = {
 			["added"] = {
@@ -32,7 +40,7 @@ local diff = {
 					["key"] = "JOY_BTN26",
 				},
 			},
-			["name"] = "Interruptor de Combate cerrado/Reasumir búsqueda - ADELANTE (DM)",
+			["name"] = "Interruptor Dogfight/Resume Search - ADELANTE (DM)",
 		},
 		["d3005pnilu3005cd18vd1vpnilvu0"] = {
 			["added"] = {
@@ -40,7 +48,7 @@ local diff = {
 					["key"] = "JOY_BTN28",
 				},
 			},
-			["name"] = "Interruptor de Combate cerrado/Reasumir búsqueda - ATRÁS (DG)",
+			["name"] = "Interruptor Dogfight/Resume Search - ATRÁS (DG)",
 		},
 		["d3006pnilu3006cd18vd1vpnilvu0"] = {
 			["added"] = {
@@ -48,7 +56,7 @@ local diff = {
 					["key"] = "JOY_BTN25",
 				},
 			},
-			["name"] = "Interruptor de Combate cerrado/Reasumir búsqueda - PULSACIÓN CENTRAL (REASUMIR BÚSQUEDA)",
+			["name"] = "Interruptor Dogfight/Resume Search - PULSACIÓN CENTRAL (VOLVER BÚSQUEDA)",
 		},
 		["d3016pnilu3016cd15vd1vpnilvu0"] = {
 			["added"] = {
@@ -144,7 +152,7 @@ local diff = {
 					["key"] = "JOY_BTN17",
 				},
 			},
-			["name"] = "Interruptor del compensador de alerones - PLANO IZQUIERDO ABAJO",
+			["name"] = "Interruptor del compensador de alerones - ala izquierda ABAJO",
 		},
 		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -152,7 +160,7 @@ local diff = {
 					["key"] = "JOY_BTN15",
 				},
 			},
-			["name"] = "Interruptor del compensador de alerones - PLANO DERECHO ABAJO",
+			["name"] = "Interruptor del compensador de alerones - ala derecha ABAJO",
 		},
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
