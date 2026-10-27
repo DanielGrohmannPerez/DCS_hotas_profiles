@@ -345,9 +345,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN121",
 				},
-				[2] = {
-					["key"] = "JOY_BTN75",
-				},
 			},
 			["name"] = "Palanca de flaps - THUMB SW",
 		},
@@ -355,9 +352,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN122",
-				},
-				[2] = {
-					["key"] = "JOY_BTN76",
 				},
 			},
 			["name"] = "Palanca de flaps - ARRIBA EMER",

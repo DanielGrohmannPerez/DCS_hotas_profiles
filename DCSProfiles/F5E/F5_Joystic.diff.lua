@@ -8,14 +8,6 @@ local diff = {
 				},
 			},
 		},
-		["a2101cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_SLIDER1",
-				},
-			},
-			["name"] = "Freno de ruedas",
-		},
 	},
 	["keyDiffs"] = {
 		["d3004pnilu3004cd2vd1vpnilvu0"] = {
